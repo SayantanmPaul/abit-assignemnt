@@ -11,8 +11,8 @@ const page = () => {
 
   return (
     <div className=' flex flex-col justify-center'>  
-      <Image src={coverimage} alt='cover image' objectFit='cover' className=" w-screen h-[412px]"/>
-        <div className=' absolute top-1/2 left-24 max-w-[1240px] z-10' >
+      <Image src={coverimage} alt='cover image' objectFit='cover' className=" w-screen "/>
+        <div className=' absolute bottom-36 left-24 max-w-[1240px] z-10' >
           <div className='mx-auto'>
             <CreatorTab/>
           </div>
