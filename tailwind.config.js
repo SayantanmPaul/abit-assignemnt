@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily:{
         Gloria: ['Gloria Hallelujah', 'cursive'],
-        Cormorant: ['Cormorant', 'serif']
+        Cormorant: ['Cormorant', 'serif'],
+        Raleway: ['Raleway', 'sans-serif'],
       },
     },
   },
