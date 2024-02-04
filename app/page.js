@@ -30,7 +30,7 @@ const page = () => {
         <br/>
       </div>
       <div className=' w-full h-[1px] bg-[#D8D8D8]'></div>
-      <div className='max-w-[1240px] w-full py-[125px]'>
+      <div className='max-w-[1240px] w-full lg:py-[125px] py-[96px]'>
         <br/>
         <Footer/>
       </div>
