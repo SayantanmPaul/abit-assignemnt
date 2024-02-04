@@ -22,8 +22,8 @@ const Release = () => {
 return (
     <div className=' flex flex-row gap-[255px] h-fit'>
         <div className='flex flex-col gap-[14px]'>
-            <h2 className=' lg:text-[28px] text-2xl font-normal font-Cormorant leading-8'>Releases</h2>
-            <p className=' lg:text-[16px] text-sm w-full text-[#565656] italic font-Cormorant leading-5 text-wrap tracking-normal'>Videos that you upload in collaboration with aBit appear here.</p>
+            <h2 className=' lg:text-[28px] text-2xl font-normal font-ptsherif leading-8'>Releases</h2>
+            <p className=' lg:text-[16px] text-sm w-full text-[#565656] italic font-ptsherif leading-5 text-wrap tracking-normal'>Videos that you upload in collaboration with aBit appear here.</p>
         </div>  
         <div className=' flex flex-col lg:flex-row md:flex-row lg:gap-[22px] md:gap-2 gap-8'>
             {data.map((data, i)=>(

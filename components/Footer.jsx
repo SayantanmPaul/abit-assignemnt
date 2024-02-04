@@ -7,7 +7,7 @@ const Footer = () => {
         <Link href='/'>
           <h1 className=' font-bold text-[#262626] text-[40px] leading-[48px] cursor-pointer'>aBit</h1>
         </Link>
-        <h3 className=' font-Cormorant text-[20px] leading-6 max-w-[312px]'>Changing the way in which creators and fans interact.</h3>
+        <h3 className=' font-ptsherif text-[20px] leading-6 max-w-[312px]'>Changing the way in which creators and fans interact.</h3>
       </div>
       <div>
         <div className=' flex flex-row gap-[24px]'>

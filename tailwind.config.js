@@ -13,10 +13,10 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily:{
-        Gloria: ['Gloria Hallelujah', 'cursive'],
-        Cormorant: ['Cormorant', 'serif'],
-        Raleway: ['Raleway', 'sans-serif'],
-      },
+        gloria: ['Gloria Hallelujah', 'cursive'],
+        ptsherif: ['PT Serif', 'serif'],
+        raleway: ['Raleway', 'sans-serif'],
+      }
     },
   },
   plugins: [],

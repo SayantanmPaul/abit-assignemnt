@@ -28,7 +28,8 @@ return (
 
                 <div className=' w-full bg-black  bg-opacity-60 rounded-[4px] border border-black'>
                     <button className='w-1/2'>
-                        <p className=' bg-[#E6E6E6] backdrop-blur border border-black rounded-[3px]  text-[#313131] text-[14px] font-Cormorant py-[2px] px-9'>Creator</p>
+                        <p className=' bg-[#E6E6E6] backdrop-blur border border-black rounded-[3px]  text-[#313131] text-[14px] font-ptsherif
+                         py-[2px] px-9'>Creator</p>
                     </button>
                 </div>
             </div>

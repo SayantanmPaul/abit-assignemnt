@@ -13,7 +13,7 @@ const Header = () => {
         <div className=' flex flex-row max-w-[1264px] m-auto items-center justify-between py-8'>
             <h1 className=' font-bold text-2xl leading-7 cursor-pointer'>aBit</h1>
             <div className=' flex flex-row gap-4 items-center'>
-                <button className=' border-[2px] border-[#764CC2] rounded-full px-[22px] py-[12.5px] font-bold text-[12px] leading-[14px] font-Raleway  text-[#764CC2]'>
+                <button className=' border-[2px] border-[#764CC2] rounded-full px-[22px] py-[12.5px] font-bold text-[12px] leading-[14px] font-raleway  text-[#764CC2]'>
                     Share new video
                 </button>
                 <IoWallet size={32} className=' opacity-30 hover:opacity-50 duration-100 cursor-pointer'/>
