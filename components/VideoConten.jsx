@@ -5,12 +5,16 @@ import demoimg from '../assets/unsplash_img.png'
 const VideoConten = () => {
   return (
     <div className=' flex flex-wrap gap-9'>
-        <div className=' relative w-[276px] h-[312px] bg-[#EDEDED] hover:bg-[#e7e7e7] ease-linear duration-50 rounded-[24px] cursor-pointer'>
-            <div className=' flex justify-center items-center h-full'>
-                <FaPlus color='#959595' size={32} className=' opacity-50'/>
-                <p className=' absolute bottom-9 text-wrap w-[220px] text-[14px] text-center tracking-normal text-[#A0A0A0]'>You haven’t uploaded any videos with aBit yet. Add now!</p>
+        <form>
+        <input type="file" name="" id="fileinput" className=' opacity-0 absolute -z-10'/>
+            <div className=' relative w-[276px] h-[312px] bg-[#EDEDED] hover:bg-[#e7e7e7] ease-linear duration-50 rounded-[24px] cursor-pointer'>
+                <label htmlFor='fileinput' className=' flex justify-center items-center h-full'>
+                    <FaPlus color='#959595' size={32} className=' opacity-50'/>
+                    <p className=' absolute bottom-9 text-wrap w-[220px] text-[14px] text-center tracking-normal text-[#A0A0A0]'>You haven’t uploaded any videos with aBit yet. Add now!</p>
+                </label>
             </div>
-        </div>
+        </form>
+        
     <div className=' relative w-[276px] h-[312px] bg-[#EDEDED] rounded-[24px] overflow-hidden drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] hover:drop-shadow-[0_3px_15px_rgba(0,0,0,0.7)] duration-300 ease-in-out'>
         <div className=' w-full h-1/3 bg-gradient-to-b from-black opacity-60'></div>
         <div className=' w-full absolute bottom-0 h-1/4 bg-gradient-to-b from-transparent to-black opacity-80'></div>

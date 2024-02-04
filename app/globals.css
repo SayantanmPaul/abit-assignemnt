@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=PT+Serif&family=Raleway:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Gloria+Hallelujah&family=Raleway&display=swap')
+body{
+    overflow-x: hidden;
+}
+
+.animate-marquee {
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}

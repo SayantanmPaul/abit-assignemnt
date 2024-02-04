@@ -7,8 +7,8 @@ import CreatorTab from '@/components/Creatortab'
 import Image from 'next/image'
 import coverimage  from '/assets/coverimage.png'
 const page = () => {
+  const text="John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator / Moved to NYC / 27.11.22 / Live now / John Bill / Creator / Moved to NYC / 27.11.22 / Live now John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator / Moved to NYC / 27.11.22 / Live now / John Bill / Creator / Moved to NYC / 27.11.22 / Live now John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator / Moved to NYC / 27.11.22 / Live now / John Bill / Creator / Moved to NYC / 27.11."
 
-  
   return (
     <div className=' flex flex-col justify-center'>  
       <Image src={coverimage} alt='cover image' objectFit='cover' className=" w-screen h-[412px]"/>
@@ -19,8 +19,8 @@ const page = () => {
         </div>
       <div className='bg-[#292828] text-center'>
         <p 
-          className=' text-2xl text-white leading-10 font-normal font-Gloria py-[18px] whitespace-nowrap overflow-hidden'>
-            John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator / Moved to NYC / 27.11.22 / Live now / John Bill / Creator / Moved to NYC / 27.11.22 / Live now
+          className=' text-2xl text-white leading-10 font-normal py-[18px] whitespace-nowrap block font-gloria animate-marquee'>
+            {text}{text}
         </p>
       </div>
       <div className=' flex flex-col items-center'>
