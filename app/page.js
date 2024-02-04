@@ -14,7 +14,7 @@ const page = () => {
       <Image src={coverimage} alt='cover image' objectFit='cover' className=" w-screen "/>
         <div className=' absolute top-[56%] left-24 max-w-[1240px] z-10' >
           <div className='mx-auto'>
-            <CreatorTab/>
+            {/* <CreatorTab/> */}
           </div>
         </div>
       <div className='bg-[#292828] text-center'>

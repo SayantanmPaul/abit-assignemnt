@@ -20,18 +20,18 @@ const Release = () => {
         },
     ]
 return (
-    <div className=' flex flex-row gap-[255px] h-fit'>
-        <div className='flex flex-col gap-[14px]'>
+    <div className=' flex lg:flex-row md:flex-row flex-col lg:gap-[255px] gap-12 items-center h-fit px-4 lg:px-0'>
+        <div className='flex flex-col lg:gap-[14px] gap-3'>
             <h2 className=' lg:text-[28px] text-2xl font-normal font-ptsherif leading-8'>Releases</h2>
             <p className=' lg:text-[16px] text-sm w-full text-[#565656] italic font-ptsherif leading-5 text-wrap tracking-normal'>Videos that you upload in collaboration with aBit appear here.</p>
         </div>  
-        <div className=' flex flex-col lg:flex-row md:flex-row gap-[8px]'>
+        <div className=' flex flex-row lg:flex-row md:flex-row gap-[8px]'>
             {data.map((data, i)=>(
             <div key={i} className=' flex flex-row justify-center'>
-            <div className=' bg-[#7A7A7A] w-[1px] h-full mr-[16px]'></div>
+            <div className=' bg-[#7A7A7A] w-[1px] h-full lg:mr-[16px] mr-3'></div>
             <div className=' flex flex-col w-[50%]'>
-                <h3 key={data.val} className=' text-[#565656] font-bold text-[16px]'>{data.val}</h3>
-                <p key={data.text} className='#696969  text-wrap text-[14px] '>{data.text}</p>
+                <h3 key={data.val} className=' text-[#565656] font-bold lg:text-[16px] text-base'>{data.val}</h3>
+                <p key={data.text} className='#696969  text-wrap lg:text-[14px] text-xs '>{data.text}</p>
             </div>
         </div>
 
