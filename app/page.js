@@ -3,11 +3,20 @@ import React from 'react'
 import Release from '@/components/Release'
 import VideoConten from '@/components/VideoConten'
 import Footer from '@/components/Footer'
+import CreatorTab from '@/components/Creatortab'
+import Image from 'next/image'
+import coverimage  from '/assets/coverimage.png'
 const page = () => {
 
   
   return (
-    <div>  
+    <div className=' flex flex-col justify-center'>  
+      <Image src={coverimage} alt='cover image' objectFit='cover' className=" w-screen h-[412px]"/>
+        <div className=' absolute top-1/2 left-24 max-w-[1240px] z-10' >
+          <div className='mx-auto'>
+            <CreatorTab/>
+          </div>
+        </div>
       <div className='bg-[#292828] text-center'>
         <p 
           className=' text-2xl text-white leading-10 font-normal font-Gloria py-[18px] whitespace-nowrap overflow-hidden'>
