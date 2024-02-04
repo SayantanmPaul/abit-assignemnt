@@ -5,7 +5,7 @@ import userImg from '../assets/user_img.png'
 const CreatorTab = () => {
 return (
     <div>
-        <div className=' relative bg-cover bg-center rounded-[24px] overflow-hidden flex drop-shadow-[0_3px_15px_rgba(0,0,0,0.2)]'>
+        <div className=' relative bg-cover bg-center rounded-[24px] overflow-hidden backdrop-blur-xl flex drop-shadow-[0_1px_10px_rgba(0,0,0,0.8)]'>
         <Image src={tabBg} alt='cover image' layout='fill' objectFit='cover' sizes='100vh'/>
         <div className=' flex flex-row  justify-center items-center'>
             <div className=' h-56 z-10 hover:scale-105 transform overflow-hidden ease-in-out duration-500'>
@@ -29,7 +29,7 @@ return (
                 <div className=' w-full bg-black  bg-opacity-60 rounded-[4px] border border-black'>
                     <button className='w-1/2'>
                         <p className=' bg-[#E6E6E6] backdrop-blur border border-black rounded-[3px]  text-[#313131] text-[14px] font-ptsherif
-                         py-[2px] px-9'>Creator</p>
+                        py-[2px] px-9'>Creator</p>
                     </button>
                 </div>
             </div>
