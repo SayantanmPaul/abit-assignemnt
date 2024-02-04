@@ -31,7 +31,7 @@ return (
             <div className=' bg-[#7A7A7A] w-[1px] h-[61px]'></div>
             <div className=' flex flex-col'>
                 <h3 key={i} className=' text-[#565656] font-bold text-[16px]'>{data.val}</h3>
-                <p key={i} className='#696969 w-[60%] text-wrap text-[14px]'>{data.text}</p>
+                <p key={i} className='#696969  text-wrap text-[14px]'>{data.text}</p>
             </div>
         </div>
 
