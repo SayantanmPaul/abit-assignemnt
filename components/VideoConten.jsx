@@ -14,7 +14,7 @@ const VideoConten = () => {
     <div className=' relative w-[276px] h-[312px] bg-[#EDEDED] rounded-[24px] overflow-hidden drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] hover:drop-shadow-[0_3px_15px_rgba(0,0,0,0.7)] duration-300 ease-in-out'>
         <div className=' w-full h-1/3 bg-gradient-to-b from-black opacity-60'></div>
         <div className=' w-full absolute bottom-0 h-1/4 bg-gradient-to-b from-transparent to-black opacity-80'></div>
-        <Image src={demoimg} alt='demo img' objectFit='cover' layout='fill' className=' h-full '/>
+        <Image src={demoimg} alt='demo img' objectFit='cover' layout='fill' sizes='100vh' className=' h-full '/>
         <div className='absolute bottom-[10px] left-1/2 transform -translate-x-1/2 cursor-pointer '>
             <div className=' flex flex-row gap-10 backdrop-blur-md py-[10px] px-[20px] rounded-[12px] bg-white bg-opacity-20  text-white'>
             <div className=' flex flex-col gap-2'>
