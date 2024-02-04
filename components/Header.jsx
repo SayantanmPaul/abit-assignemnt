@@ -10,9 +10,9 @@ const Header = () => {
     <>
       <div className='bg-cover bg-center'>
         <Image src={navBg} alt='cover image' height={110} width={1920} className=" absolute w-screen h-full -z-10"/>
-        <div className=' flex flex-row max-w-[1920px] m-auto justify-between py-9'>
-            <h1 className=' font-bold text-2xl leading-7 pl-[124px]'>aBit</h1>
-            <div className=' flex flex-row gap-4 items-center pr-[54px]'>
+        <div className=' flex flex-row max-w-[1264px] m-auto items-center justify-between py-9'>
+            <h1 className=' font-bold text-2xl leading-7 '>aBit</h1>
+            <div className=' flex flex-row gap-4 items-center'>
                 <button className=' border-[2px] border-[#764CC2] rounded-full px-[22px] py-[12.5px] font-bold text-xs leading-4 text-[#764CC2]'>
                     Share new video
                 </button>
