@@ -15,12 +15,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
           <div className=" bg-cover bg-center">
-            <Image src={coverimage} alt='cover image' className=" absolute z-10 w-screen h-fit"/>
             <div className=" relative z-20">
               <Header/>
             </div>
+            <Image src={coverimage} alt='cover image' height={548} width={1440} className=" z-10 w-screen h-fit"/>
           </div>
-          <div className=" relative bg-green-300">
+          <div className="">
           {children}
           </div>
       </body>
