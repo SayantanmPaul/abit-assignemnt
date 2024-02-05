@@ -17,7 +17,7 @@ const page = () => {
             <CreatorTab/>
           </div>
         </div>
-      <div className='bg-[#292828] text-center'>
+      <div className='bg-[#292828] text-center overflow-hidden'>
         <p 
           className=' lg:text-2xl text-lg text-white leading-10 font-normal lg:py-[18px] py-3 whitespace-nowrap block font-gloria animate-marquee'>
             {text}{text}

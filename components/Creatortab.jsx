@@ -21,7 +21,7 @@ return (
                     <h2 className=' font-bold lg:text-[24px] text-md leading-5 tracking-wide'>DAN MACE</h2>
                     <p className=' text-[#696969] lg:text-[14px] text-xs leading-5'>/Johny_Films/</p>
                 </div>
-                <div className='flex flex-col max-w-[260px] gap-1 '>
+                <div className='flex flex-col max-w-[220px] gap-1 '>
                     <h4 className=' font-bold lg:text-[14px] text-xs leading-4 text-[#696969]'>Bio</h4>
                     <p className=' lg:text-[14px] text-[13px] leading-4 text-[#696969] text-wrap'>Simply a film fan creating original content for YouTube. Let’s Collaborate.</p>
                 </div>
