@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div className=' flex flex-col justify-center'>  
       <Image src={coverimage} alt='cover image' objectFit='cover' className="w-screen lg:h-auto h-[300px] object-cover"/>
-        <div className=' absolute lg:top-[56%] md:top-80 top-40 left-24 max-w-[1240px] z-10' >
+        <div className=' absolute lg:top-[56%] md:top-80 top-40 lg:left-24 left-4 max-w-[1240px] z-10' >
           <div className='mx-auto'>
             <CreatorTab/>
           </div>

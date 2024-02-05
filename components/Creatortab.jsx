@@ -8,7 +8,7 @@ return (
         <div className=' relative bg-cover bg-center rounded-[24px] overflow-hidden backdrop-blur-xl flex drop-shadow-[0_1px_10px_rgba(0,0,0,0.8)]'>
         <Image src={tabBg} alt='cover image' layout='fill' objectFit='cover' sizes='100vh'/>
         <div className=' flex lg:flex-row md:flex-row  flex-col justify-center items-center'>
-            <div className=' h-56 lg:w-auto w-full z-10 hover:scale-105 transform overflow-hidden ease-in-out duration-500'>
+            <div className=' h-56 lg:w-auto md:w-auto w-full z-10 hover:scale-105 transform overflow-hidden ease-in-out duration-500'>
                 <Image 
                 src={userImg} 
                 alt='profile-img' 
