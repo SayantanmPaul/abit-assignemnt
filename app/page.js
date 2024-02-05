@@ -11,15 +11,15 @@ const page = () => {
 
   return (
     <div className=' flex flex-col justify-center'>  
-      <Image src={coverimage} alt='cover image' objectFit='cover' className=" w-screen "/>
-        <div className=' absolute top-[56%] left-24 max-w-[1240px] z-10' >
+      <Image src={coverimage} alt='cover image' objectFit='cover' className="w-screen lg:h-auto h-[300px] object-cover"/>
+        <div className=' absolute lg:top-[56%] md:top-80 top-40 left-24 max-w-[1240px] z-10' >
           <div className='mx-auto'>
-            {/* <CreatorTab/> */}
+            <CreatorTab/>
           </div>
         </div>
       <div className='bg-[#292828] text-center'>
         <p 
-          className=' text-2xl text-white leading-10 font-normal py-[18px] whitespace-nowrap block font-gloria animate-marquee'>
+          className=' lg:text-2xl text-lg text-white leading-10 font-normal lg:py-[18px] py-3 whitespace-nowrap block font-gloria animate-marquee'>
             {text}{text}
         </p>
       </div>
